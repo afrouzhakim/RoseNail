@@ -4,7 +4,7 @@ import {Link as LinkS} from 'react-scroll'
 import { FaBorderNone } from 'react-icons/fa'
 
 export const Nav = styled.nav`
-    background:#000;
+    background:rgb(244, 141, 147);
     height: 80px;
     /*margin-top: -80px;*/
     justify-content:center;
@@ -68,7 +68,6 @@ export const NavMenu = styled.ul`
 
     @media screen and (max-width: 768px){
         display: none;
-
     }
 `
 export const NavItem = styled.li`
@@ -97,10 +96,10 @@ export const NavBtn = styled.nav`
 `
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #fff;
     white-space: no-wrap;
     padding: 10px 22px;
-    color: #010606;
+    color: rgb(244, 141, 147);
     font-size:16px;
     outline: none;
     border: none;
@@ -110,7 +109,7 @@ export const NavBtnLink = styled(LinkR)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #rgb(244, 141, 147);
+        color:  #fff;
     }
 `

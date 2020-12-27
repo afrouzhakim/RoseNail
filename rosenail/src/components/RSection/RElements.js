@@ -10,6 +10,8 @@ export const RContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
+
+    
 `
 
 export const RBg = styled.div`

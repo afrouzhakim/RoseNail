@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import video from '../../videoes/video.mp4'
 import {RContainer, RBg, VideoBg, RContent, RH1, RP, RBtnWrapper, ArrowForward, ArrowRight} from './RElements'
-import {Button} from '../ButtonElement'
+import {Button} from '../ButtonElements'
 
 const RSection = () => {
 const [hover, setHover] = useState(false)
